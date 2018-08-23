@@ -7,7 +7,7 @@ const getYoutubeID = require('get-youtube-id');
 const fetchVideoInfo = require('youtube-info');
  
 const yt_api_key = "AIzaSyDeoIH0u1e72AtfpwSKKOSy3IPp2UHzqi4";
-const prefix = 'S';
+const prefix = '$';
 client.on('ready', function() {
     client.user.setGame(` Baktash love Skoza`,"http://twitch.tv/Baktash_183")
     console.log(`i am ready ${client.user.username}`);
