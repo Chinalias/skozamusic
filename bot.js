@@ -257,7 +257,7 @@ client.on('message', message => {
     });
  
  
-const adminprefix = "!";
+const adminprefix = "r!";
 const devs = ['331081268731052042'];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
